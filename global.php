@@ -4,7 +4,7 @@ $appname ="One Active Space";
 global $AdminId;
 $AdminId="1";
 
-$httpaddress = "http://cloud1.networkz.com.sg/coda";
+$httpaddress = "http://localhost/as_project/";
 $temppage = explode("/",substr($_SERVER['PHP_SELF'],1));
 if($temppage[1]=="")
 	$pagename = $temppage[0];
