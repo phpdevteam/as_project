@@ -1,0 +1,135 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800,800italic,300,300italic);
+ @font-face {
+     font-family: 'montserratlight';
+     src: url('../fonts/montserrat-light-webfont.eot');
+     src: url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat-light-webfont.woff2') format('woff2'), url('../fonts/montserrat-light-webfont.woff') format('woff'), url('../fonts/montserrat-light-webfont.ttf') format('truetype'), url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'montserratregular';
+     src: url('../fonts/montserrat-regular-webfont-webfont.eot');
+     src: url('../fonts/montserrat-regular-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat-regular-webfont-webfont.woff2') format('woff2'), url('../fonts/montserrat-regular-webfont-webfont.woff') format('woff'), url('../fonts/montserrat-regular-webfont-webfont.ttf') format('truetype'), url('../fonts/montserrat-regular-webfont-webfont.svg#montserratregular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ } 
+ 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ body { margin: 0px;  padding:0px;  font-family: 'montserratregular';
+ 
+ 
+  background-image: url(../images/bg.jpg);
+   background-position: center center;
+    background-repeat: no-repeat;
+	 background-attachment: fixed;
+	  background-size: cover; }
+	  .clr { clear:both; }
+
+.background {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	
+}
+
+::-webkit-input-placeholder {
+   color: #b7bcc6;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #b7bcc6;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #b7bcc6;  
+}
+
+:-ms-input-placeholder {  
+   color: #b7bcc6;  
+}
+
+/* 
+http://jsfiddle.net/6KaMy/1/
+is there a better way than the absolute positioning and negative margin.
+It has the problem that the content will  will be cut on top if the window is smalller than the content.
+*/
+
+.content {
+	width: 100%;
+    height: 555px;
+	position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+	margin:auto;
+	
+	max-width:100%;
+	max-height:100%;
+	
+	text-align:center;
+}
+.main_box { width:330px; margin:0 auto; }
+
+.login_box { width:300px; padding:15px; background:#FFF; margin:0 auto; -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px; border:1px solid #d2d6df;  }
+
+.login_box h4 { color:#045e95; margin:10px 0;   } 
+
+.input_box { width:93%; border:1px solid #d2d6df; margin-bottom:10px; padding:0px 10px; height:40px; font-size:16px; font-family: 'montserratregular';   }
+
+.logo { margin:0 auto; text-align:center;    }
+
+h1 { font-size:67px; color:#000; text-transform:uppercase; margin:0px; padding:10px 0;  }
+
+.login_btn { border:0px;  width:196px; float:left; height:40px; text-align:center; background:#3d98ce; border-bottom:2px solid #0871b1; cursor:pointer; color:#FFF; font-size:18px; font-family: 'montserratregular'; font-weight:bold; text-transform:uppercase; margin-right:5px; margin-bottom:10px;   }
+.clear_btn   { border:0px;  width:99px; float:left; height:40px; text-align:center; background:#434343; border-bottom:2px solid #101010; cursor:pointer; color:#FFF; font-size:18px; font-family: 'montserratregular'; font-weight:bold; text-transform:uppercase;  margin-bottom:10px;   }
+.fogp  {  width:40%; float:left; text-align:right; }
+.fogp  a { color:#0871b1; text-decoration:none; font-size:12px; }
+.imp_note { font-size:12px; color:#000; padding:15px; font-family: 'Open Sans', sans-serif; }
+.support_link a { color:#000; text-transform:uppercase; text-decoration:none; font-weight:bold;  }
+.support_link span { font-size:24px; }
+.line_space { width:183px; margin:10px auto 20px; height:1px; background:#FFF; }
+.copy_right { font-size:12px; color:#000; font-family: 'Open Sans', sans-serif; padding:20px 0; width:100%; }
+.copy_right img { margin-top:10px; }
+
+.rpass { width:60%; float:left; font-size:14px; text-align:left;   }    
+/*** custom checkboxes ***/
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 8px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f14a"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 7px; } /* allow space for check mark */
+
+@media (max-width:767px) { 
+
+.login_btn { width:176px; }
+.main_box  { width:auto; }
+.login_box { width:280px; margin:15px auto 0px; }
+.content { height:555px; }
+ }
+ 
+ .login_btn:focus{
+    background: #3d98ce;
+    border-bottom: 2px solid #0871b1;
+}
+.clear_btn:focus{
+        background: #434343;
+    border-bottom: 2px solid #101010;
+}

@@ -1,0 +1,10 @@
+[04-Jul-2017 12:34:31 Singapore] PHP Fatal error:  Access denied for user 'root'@'localhost' (using password: YES) in /home/devnwzso/public_html/activespace/dbopen.php on line 10
+[04-Jul-2017 00:36:50 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/devnwzso/public_html/activespace/intranet/main.php on line 398
+[04-Jul-2017 00:58:18 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/devnwzso/public_html/activespace/intranet/main.php on line 403
+[04-Jul-2017 00:58:22 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/devnwzso/public_html/activespace/intranet/main.php on line 403
+[12-Jul-2017 17:38:50 Singapore] PHP Fatal error:  Call to undefined function mysqlToDatetimepicker() in /home/devnwzso/public_html/activespace/intranet/customer.php on line 74
+[12-Jul-2017 06:19:14 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/devnwzso/public_html/activespace/intranet/customers.php on line 311
+[12-Jul-2017 19:29:32 Singapore] PHP Fatal error:  Call to undefined function mysqlToDatetimepicker() in /home/devnwzso/public_html/activespace/intranet/customers.php on line 708
+[12-Jul-2017 06:30:21 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/devnwzso/public_html/activespace/intranet/customers.php on line 337
+[12-Jul-2017 06:32:20 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/devnwzso/public_html/activespace/intranet/customers.php on line 9
+[12-Jul-2017 22:57:44 CST6CDT] PHP Parse error:  syntax error, unexpected ' ' in /home/devnwzso/public_html/activespace/intranet/customers.php on line 610
