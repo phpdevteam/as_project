@@ -4,6 +4,7 @@ error_reporting(0);
 $tbname="as";
 $projectname = "One Active Space";
 
+//test
 $hostname = "localhost";
 $database = "devnwzso_as";
 //$username = "devnwzso_as";
