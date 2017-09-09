@@ -1,4 +1,5 @@
-<?
+<?php
+
 $gbtitlename="One Active Space";
 $appname ="One Active Space"; 
 global $AdminId;
