@@ -4,6 +4,7 @@ $appname ="One Active Space";
 global $AdminId;
 $AdminId="1";
 
+//test comment
 $httpaddress = "http://localhost/as_project/";
 $temppage = explode("/",substr($_SERVER['PHP_SELF'],1));
 if($temppage[1]=="")
